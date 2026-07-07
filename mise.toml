@@ -38,3 +38,6 @@ yq = "4.53.3"
 zig = "0.16.0"
 zls = "0.16.0"
 zoxide = "0.10.0"
+
+[tasks.install-tldr]
+run = "pipx install tldr"
