@@ -45,3 +45,6 @@ run = "pipx install tldr"
 
 [tasks.install-gitmoji]
 run = "npm i -g gitmoji-cli"
+
+[settings]
+lockfile = true
