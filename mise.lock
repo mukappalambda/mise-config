@@ -3911,6 +3911,40 @@ checksum = "sha256:1a29532505bf582b8da80528ed997c786dfafd9ef5bfead3935665a70900b
 url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_windows_amd64.zip"
 url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590940"
 
+[[tools.herdr]]
+version = "0.7.5"
+backend = "aqua:ogulcancelik/herdr"
+
+[tools.herdr."platforms.linux-arm64"]
+checksum = "sha256:32e763a1499a6b694b1d708e4f062b743be1da9f34fcfa4d212d6db6fe09a8b9"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-linux-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992543"
+
+[tools.herdr."platforms.linux-arm64-musl"]
+checksum = "sha256:32e763a1499a6b694b1d708e4f062b743be1da9f34fcfa4d212d6db6fe09a8b9"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-linux-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992543"
+
+[tools.herdr."platforms.linux-x64"]
+checksum = "sha256:3dc83288073e4c2d3c679a30e7be97bcca9141c6fd17dbbb9219142e95c59253"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-linux-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992544"
+
+[tools.herdr."platforms.linux-x64-musl"]
+checksum = "sha256:3dc83288073e4c2d3c679a30e7be97bcca9141c6fd17dbbb9219142e95c59253"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-linux-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992544"
+
+[tools.herdr."platforms.macos-arm64"]
+checksum = "sha256:37350546b0012555943b92eaf962665de4e264395baeb44227b8015e8ff5b0d6"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-macos-aarch64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992542"
+
+[tools.herdr."platforms.macos-x64"]
+checksum = "sha256:3fe50c4a63dc8102306b1322178628ddb3655cd3ae56d784f094153408d69e62"
+url = "https://github.com/herdrdev/herdr/releases/download/v0.7.5/herdr-macos-x86_64"
+url_api = "https://api.github.com/repos/herdrdev/herdr/releases/assets/484992541"
+
 [[tools.jq]]
 version = "1.8.2"
 backend = "aqua:jqlang/jq"
@@ -4293,6 +4327,53 @@ url_api = "https://api.github.com/repos/ollama/ollama/releases/assets/442045022"
 checksum = "sha256:ce8169abfe48e05a865958391729ff14f297513ae67fdb4ec7b11a37b9c5b715"
 url = "https://github.com/ollama/ollama/releases/download/v0.30.7/ollama-windows-amd64.zip"
 url_api = "https://api.github.com/repos/ollama/ollama/releases/assets/442044981"
+
+[[tools.pandoc]]
+version = "3.10.1"
+backend = "github:jgm/pandoc"
+
+[tools.pandoc."platforms.linux-arm64"]
+checksum = "sha256:cd3963da375793a4804c65ae538b4f7b9c23f87cac7f6c74a1cf5e2fff7e8d59"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227617"
+provenance = "github-attestations"
+
+[tools.pandoc."platforms.linux-arm64-musl"]
+checksum = "sha256:cd3963da375793a4804c65ae538b4f7b9c23f87cac7f6c74a1cf5e2fff7e8d59"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-linux-arm64.tar.gz"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227617"
+provenance = "github-attestations"
+
+[tools.pandoc."platforms.linux-x64"]
+checksum = "sha256:72948bf5784f560d5ad1876709daca27e0667f262da727bb33f77b58e52df2f5"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227507"
+provenance = "github-attestations"
+provenance_verified = true
+
+[tools.pandoc."platforms.linux-x64-musl"]
+checksum = "sha256:72948bf5784f560d5ad1876709daca27e0667f262da727bb33f77b58e52df2f5"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-linux-amd64.tar.gz"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227507"
+provenance = "github-attestations"
+
+[tools.pandoc."platforms.macos-arm64"]
+checksum = "sha256:8607160694a70ed9aa63776caa44acef3afb729c379c7c283724b7e27455bfda"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-arm64-macOS.zip"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227385"
+provenance = "github-attestations"
+
+[tools.pandoc."platforms.macos-x64"]
+checksum = "sha256:76430dd0ce5305fc4b91d8c0d5c22a00c8d2197ad3cef3937f65048f087164f7"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-x86_64-macOS.zip"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227966"
+provenance = "github-attestations"
+
+[tools.pandoc."platforms.windows-x64"]
+checksum = "sha256:4725a1883e2171c2e181e6fd45003acb59ca4e9cbe031fdd3b79ef0d697d36aa"
+url = "https://github.com/jgm/pandoc/releases/download/3.10.1/pandoc-3.10.1-windows-x86_64.zip"
+url_api = "https://api.github.com/repos/jgm/pandoc/releases/assets/486227797"
+provenance = "github-attestations"
 
 [[tools.pipx]]
 version = "1.15.0"
