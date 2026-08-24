@@ -1,6 +1,6 @@
 [tools]
 cmake = "4.3.3"
-codex = "0.147.0"
+codex = "0.149.0"
 cue = "0.17.0"
 fastfetch = "2.66.0"
 fd = "10.4.2"
