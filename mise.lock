@@ -5452,6 +5452,45 @@ checksum = "sha256:e77d0ea1226b8b389b43f702240091249a96eea25857281f90ea24d0eb9eb
 url = "https://github.com/JohnnyMorganz/StyLua/releases/download/v2.5.2/stylua-windows-x86_64.zip"
 url_api = "https://api.github.com/repos/JohnnyMorganz/StyLua/releases/assets/421902292"
 
+[[tools.tealdeer]]
+version = "1.9.0"
+backend = "aqua:tealdeer-rs/tealdeer"
+
+[tools.tealdeer."platforms.linux-arm64"]
+checksum = "sha256:a748f181c00933980cb850f4a24199c45900fc523787f6c524232a6bfc66b895"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-linux-aarch64-musl"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792762"
+
+[tools.tealdeer."platforms.linux-arm64-musl"]
+checksum = "sha256:a748f181c00933980cb850f4a24199c45900fc523787f6c524232a6bfc66b895"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-linux-aarch64-musl"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792762"
+
+[tools.tealdeer."platforms.linux-x64"]
+checksum = "sha256:dc7263b550e90c0689ea2cb434e3144469805d5dddecbb1f7fc534e1185b7408"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792725"
+
+[tools.tealdeer."platforms.linux-x64-musl"]
+checksum = "sha256:dc7263b550e90c0689ea2cb434e3144469805d5dddecbb1f7fc534e1185b7408"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-linux-x86_64-musl"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792725"
+
+[tools.tealdeer."platforms.macos-arm64"]
+checksum = "sha256:e6c6d9bf6d0267a38d5709c2b8334467fedd456927429ab426ff823201c13a40"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-macos-aarch64"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792693"
+
+[tools.tealdeer."platforms.macos-x64"]
+checksum = "sha256:58337de7ad3446235f1493e02456002a9aa4e915cf70347d12334aa5fe08bfe5"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-macos-x86_64"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792716"
+
+[tools.tealdeer."platforms.windows-x64"]
+checksum = "sha256:23fb76fb683d76dd413cb470b1a3c32157e585edec7d740e73da1aa9c6406dfe"
+url = "https://github.com/tealdeer-rs/tealdeer/releases/download/v1.9.0/tealdeer-windows-x86_64-msvc.exe"
+url_api = "https://api.github.com/repos/tealdeer-rs/tealdeer/releases/assets/527792764"
+
 [[tools.tmux]]
 version = "3.7b"
 backend = "aqua:tmux/tmux-builds"
