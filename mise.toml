@@ -53,3 +53,6 @@ run = "go install golang.org/x/vuln/cmd/govulncheck@latest"
 
 [settings]
 lockfile = true
+
+[settings.self_update]
+auto = true
