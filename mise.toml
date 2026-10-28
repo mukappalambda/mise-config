@@ -1,4 +1,5 @@
 [tools]
+act = "0.2.89"
 cmake = "4.3.3"
 cue = "0.17.0"
 fastfetch = "2.69.0"
