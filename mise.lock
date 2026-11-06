@@ -4680,44 +4680,50 @@ url_api = "https://api.github.com/repos/golangci/golangci-lint/releases/assets/5
 provenance = "github-attestations"
 
 [[tools.grype]]
-version = "0.115.0"
+version = "0.121.1"
 backend = "aqua:anchore/grype"
-specifiers = ["0.115.0"]
+specifiers = ["0.121.1"]
 
 [tools.grype."platforms.linux-arm64"]
-checksum = "sha256:b8541b9ecc3e936e7db4ff14b71a9474b25f3898ccaad63ee0bfe3449fcd734d"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590910"
+checksum = "sha256:33670612aad351c48cf3c37f4a85d8b043d1b64b21e6034e675bb00b956d78c1"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581205"
 
 [tools.grype."platforms.linux-arm64-musl"]
-checksum = "sha256:b8541b9ecc3e936e7db4ff14b71a9474b25f3898ccaad63ee0bfe3449fcd734d"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_linux_arm64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590910"
+checksum = "sha256:33670612aad351c48cf3c37f4a85d8b043d1b64b21e6034e675bb00b956d78c1"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_linux_arm64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581205"
 
 [tools.grype."platforms.linux-x64"]
-checksum = "sha256:3fad92940650e514c0aa2dad83526942a055e210cec09a8a59d9c024adc2b90e"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590912"
+checksum = "sha256:bc3ea3f9e6fd56ac781c08c6c5e614271b79f438200757f6932085c19b0a4657"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581213"
 
 [tools.grype."platforms.linux-x64-musl"]
-checksum = "sha256:3fad92940650e514c0aa2dad83526942a055e210cec09a8a59d9c024adc2b90e"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_linux_amd64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590912"
+checksum = "sha256:bc3ea3f9e6fd56ac781c08c6c5e614271b79f438200757f6932085c19b0a4657"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_linux_amd64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581213"
 
 [tools.grype."platforms.macos-arm64"]
-checksum = "sha256:a5faa957bca6f39e252a046b9431cd79745030c692dd400ab4c0c74266edc406"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_darwin_arm64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590934"
+checksum = "sha256:daa9ffdc0022b34fb476f94cbcabac9d850882c895d83e4a5ecf5e0ab13bce77"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_darwin_arm64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581319"
 
 [tools.grype."platforms.macos-x64"]
-checksum = "sha256:f2c50aa2c00b633b24535dd44804f09d22b55a3f76d42b5290655af85e55aa64"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_darwin_amd64.tar.gz"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590936"
+checksum = "sha256:20fefd09105fb7bf2bbfe29c6bb14edbe4c17214436753735c172465fffe69f6"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_darwin_amd64.tar.gz"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581336"
 
 [tools.grype."platforms.windows-x64"]
-checksum = "sha256:1a29532505bf582b8da80528ed997c786dfafd9ef5bfead3935665a70900ba71"
-url = "https://github.com/anchore/grype/releases/download/v0.115.0/grype_0.115.0_windows_amd64.zip"
-url_api = "https://api.github.com/repos/anchore/grype/releases/assets/458590940"
+checksum = "sha256:37f7b1b9c7d93a74174c5619ee16b321fc135670509f234235fdf2dc5f2c0852"
+checksum_source = "mise-versions"
+url = "https://github.com/anchore/grype/releases/download/v0.121.1/grype_0.121.1_windows_amd64.zip"
+url_api = "https://api.github.com/repos/anchore/grype/releases/assets/702581331"
 
 [[tools.herdr]]
 version = "0.7.5"
